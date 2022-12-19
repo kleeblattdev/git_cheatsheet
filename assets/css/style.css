@@ -1,0 +1,55 @@
+/* font family
+font-family: 'Sacramento', cursive;
+font-family: 'Montserrat', sans-serif;
+ */
+
+@font-face {
+    font-family: 'Sacramento';
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    padding: 20px;
+
+}
+
+.fontMontserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+td, th{
+    border: 1px solid #86C8BC;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #CEEDC7;
+}
+
+
+
+
+
