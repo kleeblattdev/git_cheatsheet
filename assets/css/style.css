@@ -1,6 +1,7 @@
 /* font family
 font-family: 'Sacramento', cursive;
 font-family: 'Montserrat', sans-serif;
+font-family: 'Indie Flower', cursive;
  */
 
 @font-face {
@@ -13,30 +14,60 @@ font-family: 'Montserrat', sans-serif;
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: 'Indie Flower';
+    src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+    color: #F7F5EB;
+    background-color: #A0C3D2;
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin: 8px;
+}
+
 h1{
     font-family: 'Sacramento', cursive;
-    padding: 20px;
-
+    font-size: 3rem;
+    margin-right: 15px;
 }
 
 .fontMontserrat{
     font-family: 'Montserrat', sans-serif;
 }
 
-h2{
+h2, th{
+    font-family: 'Montserrat-Semibold', sans-serif;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 table{
     border-collapse: collapse;
     margin: 10px auto;
+    width: 60vw;
 }
 
 td, th{
@@ -49,6 +80,26 @@ tr:nth-child(even){
     background-color: #CEEDC7;
 }
 
+/* TERMINAL HTML */
+
+.terminalList {
+    width: 60vw;
+    
+}
+
+.externalLink {
+    font-size: 1.2rem;
+    color: #A0C3D2;
+    background: none;
+    padding: 5px;
+    border-radius: 0;
+}
+
+.terminalList ul li{
+    list-style-type: '👩‍💻';
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
